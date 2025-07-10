@@ -1,0 +1,12 @@
+li a {
+  display: inline;
+  float: left;
+}
+.main-heading {
+  color: azure;
+  text-align: center;
+}
+.introduction {
+  display: flex;
+  
+}
