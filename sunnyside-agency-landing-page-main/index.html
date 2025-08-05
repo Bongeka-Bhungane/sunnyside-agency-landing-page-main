@@ -8,21 +8,28 @@
   <title>Frontend Mentor | Sunnyside agency landing page</title>
 </head>
 <body>
-<nav>
-  <header style="background-image: url(images/desktop/image-header.jpg)">
-     <div id="header">
-      <img src="images/icon-hamburger.svg" alt="Icon">
-      <img src="images/icon-arrow-down.svg" alt="Icon">
-    <ul>
-       <li>sunnyside</li>
-       <li>About</li>
-       <li>Services</li>
-       <li>Projects</li>
-       <li>Contact</li>
-    </ul>
-    <h1 class="main-heading">We are creatives</h1>
-  </div>
-  </header>
+  <header style="background-image: url('images/desktop/image-header.jpg'); background-size: cover; background-position: center; height: 100vh; position: relative;">
+  <nav style="display: flex; justify-content: space-between; align-items: center; padding: 20px; color: white;">
+    <div id="logo">
+      <li style="list-style: none; font-weight: bold;">sunnyside</li>
+    </div>
+    <ul style="display: flex; gap: 30px; list-style: none; margin: 0; padding: 0;">
+  <li>About</li>
+  <li>Services</li>
+  <li>Projects</li>
+  <li>
+  <a href="#contact" style="background-color: white; color: black; padding: 10px 20px; border-radius: 25px; text-decoration: none; font-weight: bold;">
+    Contact
+  </a>
+</li>
+
+</ul>
+  </nav>
+
+  <img src="images/icon-arrow-down.svg" alt="Arrow Down" class="arrow-down">
+  <h1 class="main-heading" style="text-align: center; color: white; font-size: 3rem; position: relative; width: 100%; bottom: 700px;">We are creatives</h1>
+</header>
+
   <div class="row">
     <div class="column">
       <h2>Transform your brand</h2>
@@ -55,6 +62,5 @@
       </div>
     </div>
   </section>
-</nav>
 </body>
 </html>
