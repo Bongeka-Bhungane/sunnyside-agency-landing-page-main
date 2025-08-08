@@ -102,4 +102,57 @@ nav ul {
   line-height: 1.5;
 }
 
+.testimonials-section {
+  text-align: center;
+  padding: 80px 20px;
+  background-color: hsl(0, 0%, 98%);
+}
+
+.testimonials h2 {
+  font-family: 'Fraunces', serif;
+  text-transform: uppercase;
+  font-size: 1.2rem;
+  letter-spacing: 3px;
+  color: hsl(210, 4%, 40%);
+  margin-bottom: 60px;
+}
+
+.testimonials {
+  display: flex;
+  justify-content: center;
+  gap: 40px;
+  flex-wrap: wrap; /* mobile-friendly */
+}
+
+.clients {
+  max-width: 300px;
+}
+
+.clients img {
+  width: 60px;
+  height: 60px;
+  border-radius: 50%;
+  margin-bottom: 30px;
+}
+
+.clients p {
+  font-family: 'Barlow', sans-serif;
+  font-size: 0.95rem;
+  line-height: 1.6;
+  color: hsl(210, 4%, 40%);
+  margin-bottom: 30px;
+}
+
+.testimonial h4 {
+  font-family: 'Fraunces', serif;
+  font-weight: bold;
+  margin-bottom: 5px;
+}
+
+.role {
+  display: block;
+  font-family: 'Barlow', sans-serif;
+  font-size: 0.85rem;
+  color: hsl(210, 4%, 60%);
+}
 
