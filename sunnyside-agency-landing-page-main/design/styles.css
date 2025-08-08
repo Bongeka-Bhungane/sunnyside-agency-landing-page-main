@@ -38,10 +38,68 @@ nav ul {
   padding: 0;
 }
 
-
-.arrow-down {
-  display: block;
-  margin: 20px auto 0; /* centers it horizontally */
-  height: 40px;
-  animation: bounce 2s infinite;
+.row {
+  display: flex;
+  flex-direction: row;
+  width: 100%;
 }
+
+.column {
+  flex: 1;
+  box-sizing: border-box;
+  width: 100%;
+}
+
+.image-column img {
+  width: 100%;
+  height: auto;
+  display: block;
+}
+
+.text-column1 {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  margin: 10px;
+  width: 50%;
+}
+
+.design-photography {
+  display: flex;
+  flex-wrap: wrap;
+  width: 100%;
+}
+
+.half {
+  flex: 1;
+  position: relative;
+  height: 500px;
+  background-size: cover;
+  background-position: center;
+  color: hsl(167, 40%, 24%); /* dark teal for text */
+  text-align: center;
+  display: flex;
+  align-items: flex-end;
+  justify-content: center;
+  padding: 40px;
+  box-sizing: border-box;
+}
+
+.text-overlay {
+  max-width: 300px;
+}
+
+.text-overlay h3 {
+  font-family: 'Fraunces', serif;
+  font-weight: bold;
+  font-size: 1.5rem;
+  margin-bottom: 10px;
+}
+
+.text-overlay p {
+  font-family: 'Barlow', sans-serif;
+  font-size: 1rem;
+  line-height: 1.5;
+}
+
+
